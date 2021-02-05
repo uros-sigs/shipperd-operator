@@ -11,7 +11,7 @@ Active Field use cases and artifact types where this model is being practiced in
   - Local artifact mirror caching in connected cluster deployments (WAN bandwidth bottleneck remediation)
   - Day Zero/One offline artifact image mirror for Restricted/Airgaped platform deployment.
   - Day Two offline artifact image mirror augmentation, update, and upgrade
-  - ALL: Artifact Types including Platfomr Infra, Operator, and App oci container images
+  - For oci container images including Platfom Infra, Operator, and arbitrary application images
 
 ### Issue Proposition:
 Some painpoints ShipperD attempts to address include pre-platform & pre-infrastructure blockers:
