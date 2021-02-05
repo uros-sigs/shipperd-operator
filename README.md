@@ -1,6 +1,9 @@
 # ShipperD Operator
 ShipperD is currently in early proof-of-concept development.
 
+### Objective
+ShipperD provides a simple operator interface method to upload arbitrary image collections via the [Koffer](https://github.com/CloudCtl/Koffer) produced OCI Spec disconnected proposed bundle format.
+
 ShipperD is built to fill a gap in the OCI Distribution Spec where needs of
 disconnected/restricted kubernetes platforms and workloads are not addressed by
 current industry adopted standards.
