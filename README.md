@@ -4,7 +4,7 @@
 ### Objective
 ShipperD provides a kubernetes native, simple human interface to upload and update arbitrary image collections via self contained offline carry friendly packages. This operator's primary function is to serve as a purpose built point of entry for disconnected container image uploading and publishing. The Koffer + ShipperD model was created to fill the restricted, disconnected, and airgap cluster use cases currently missing from the OCI Distribution Spec.
 
-[OCI distribution-spec](https://github.com/opencontainers/distribution-spec) disconnected bundle prototype builds are currently practiced by [Koffer](https://github.com/CloudCtl/Koffer) and driven by it's [various plugin examples](https://github.com/CodeSparta).
+[OCI distribution-spec](https://github.com/opencontainers/distribution-spec) disconnected bundle prototype reference builds are currently built by [Koffer](https://github.com/CloudCtl/Koffer) and driven by it's [various plugin examples](https://github.com/CodeSparta).
 
 ### Where does Koffer + ShipperD make sense?    
 Active Field use cases and artifact types where this model is being practiced include:
