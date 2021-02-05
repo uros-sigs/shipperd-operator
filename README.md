@@ -2,12 +2,9 @@
 ShipperD is currently in early proof-of-concept development.
 
 ### Objective
-ShipperD provides a simple human interface to upload and update arbitrary image collections via standardized bundle packages.
-The prototype [OCI distribution-spec](https://github.com/opencontainers/distribution-spec) disconnected proposal is currently demonstrated by [Koffer](https://github.com/CloudCtl/Koffer) and driven by it's various plugins.
+ShipperD provides a kubernetes native, simple human interface, to upload and update arbitrary image collections via self contained, standardized bundle packages. This operator's primary function is to serve as a single point of entry for disconnected container image upload and publishing, and is built to fill the disconnected/airgap cluster use case missing from the OCI Distribution Spec.
 
-ShipperD is built to fill a gap in the OCI Distribution Spec where needs of
-disconnected/restricted kubernetes platforms and workloads are not addressed by
-current industry adopted standards.
+[OCI distribution-spec](https://github.com/opencontainers/distribution-spec) disconnected bundle prototypes are currently created by [Koffer](https://github.com/CloudCtl/Koffer) and driven by it's [various plugins](https://github.com/CodeSparta).
 
 ### Painpoints include pre-platform & pre-infrastructure blockers:
   - need for invented image distribution approach
